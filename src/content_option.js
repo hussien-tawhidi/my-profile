@@ -17,8 +17,7 @@ const introdata = {
 
 const dataabout = {
   title: "Abit about my self",
-  aboutme:
-    "'The world of programming is very big. Almost every day we all use programs created by programmers. Like phone softwares or computer softwares or websites. Currently, in the world of trading, having a website is the most important part of the company. A good site can make your business grow. But you don't know a reputable brand or company that doesn't have a website. Currently, all reputable brands in the world conduct their transactions through these sites ...'",
+  aboutme: `"The world of programming is very big. Almost every day we all use programs created by programmers. Like phone softwares or computer softwares or websites. Currently, in the world of trading, having a website is the most important part of the company. A good site can make your business grow. But you don't know a reputable brand or company that doesn't have a website. Currently, all reputable brands in the world conduct their transactions through these sites ..."`,
 };
 
 const worktimeline = [
