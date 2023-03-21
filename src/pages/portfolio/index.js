@@ -15,7 +15,7 @@ export const Portfolio = () => {
           <meta name='description' content={meta.description} />
         </Helmet>
         <div className='wait'>
-          <h1 className='d-flex align-items-center flex-direction-column  h-100'>
+          <h1 className=''>
             Working on some project when it finished will display here please be
             pecient.it will take some days ...
             <p>
