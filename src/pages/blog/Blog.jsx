@@ -1,7 +1,7 @@
 import lodash from "lodash";
 import moment from "moment/moment";
 import { blogData } from "../../content_option";
-import { FaClock } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaClock } from "react-icons/fa";
 
 export default function Blog() {
   return (
@@ -14,7 +14,7 @@ export default function Blog() {
               <div className='row justify-content-center'>
                 {blogData?.map((topic) => (
                   <div className='col-lg-8 col-12' key={topic.id}>
-                    <div className='post-preview my-4'>
+                    <div className='post-preview border-bottom my-4'>
                       <a href='post.html'>
                         <h2 className='post-title'>{topic.title}</h2>
                       </a>
@@ -24,9 +24,15 @@ export default function Blog() {
                           separator: " ",
                         })}
                       </p>
+                      <code>
+                        See More ...
+                        <span>
+                          <FaArrowRight />
+                        </span>
+                      </code>
                       <p className='post-meta'>
                         Posted by
-                        <a href='#!'>Start Bootstrap</a>
+                        <span className="py-4">Start Bootstrap</span>
                         <p className='time'>
                           <span className='mx-2'>
                             <FaClock />
@@ -41,7 +47,7 @@ export default function Blog() {
             </div>
           </div>
           <div className='col-md-4 col-12'>
-            <div className='single'>
+            <div className='single border-bottom mb-4'>
               <div class='card bg-transparent'>
                 <img src='./recent1.jpg' class='card-img-top' alt='...' />
                 <div class='card-body transparent'>
@@ -53,9 +59,14 @@ export default function Blog() {
                       "As technology continues to advance, artificial intelligence (AI) is quickly becoming a game changer in many industries. Among the most promising AI applications is ChatGPT, a language model that has been hailed as a significant step forward in natural language processing. ChatGPT is based on the GPT-3.5 architecture, a model developed by machine learning expert "
                     )}
                   </p>
-                  <a href='/' class='btn btn-light'>
-                    Go somewhere
+                  <code>
+                     <a href='/' class='btn btn-light'>
+                    See More ...{" "}
+                    <span>
+                      <FaArrowRight />
+                    </span>
                   </a>
+                 </code>
                 </div>
               </div>
             </div>
@@ -72,7 +83,10 @@ export default function Blog() {
                     )}
                   </p>
                   <a href='/' class='btn btn-light'>
-                    Go somewhere
+                    See More ...
+                    <span>
+                      <FaArrowRight />
+                    </span>
                   </a>
                 </div>
               </div>
