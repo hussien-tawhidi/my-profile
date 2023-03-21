@@ -10,7 +10,7 @@ const introdata = {
   animated: {
     first: "I love coding",
     second: "I code cool design",
-    third: "I develop mobile apps",
+    third: "I develop web developer",
   },
   description: "",
 };
