@@ -3,7 +3,7 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
-import {  FaSmile } from "react-icons/fa";
+import { FaSmile } from "react-icons/fa";
 
 export const Portfolio = () => {
   return (
@@ -14,10 +14,11 @@ export const Portfolio = () => {
           <title> Portfolio | {meta.title} </title>{" "}
           <meta name='description' content={meta.description} />
         </Helmet>
-        <div className="wait">
+        <div className='wait'>
           <h1 className='d-flex align-items-center h-100'>
-            Working on it please wait it will take some days ...
-            <span className="mx-2">
+            Working on some project when it finished will display here please be
+            pecient.it will take some days ...
+            <span className='mx-2'>
               <FaSmile />
             </span>
           </h1>
