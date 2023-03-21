@@ -53,7 +53,7 @@ export default function Blog() {
                       "As technology continues to advance, artificial intelligence (AI) is quickly becoming a game changer in many industries. Among the most promising AI applications is ChatGPT, a language model that has been hailed as a significant step forward in natural language processing. ChatGPT is based on the GPT-3.5 architecture, a model developed by machine learning expert "
                     )}
                   </p>
-                  <a href='/' class='btn btn-primary'>
+                  <a href='/' class='btn btn-light'>
                     Go somewhere
                   </a>
                 </div>
@@ -71,7 +71,7 @@ export default function Blog() {
                       "As technology continues to advance, artificial intelligence (AI) is quickly becoming a game changer in many industries. Among the most promising AI applications is ChatGPT, a language model that has been hailed as a significant step forward in natural language processing. ChatGPT is based on the GPT-3.5 architecture, a model developed by machine learning expert "
                     )}
                   </p>
-                  <a href='/' class='btn btn-primary'>
+                  <a href='/' class='btn btn-light'>
                     Go somewhere
                   </a>
                 </div>
