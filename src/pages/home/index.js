@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-import profileImg from "../../assets/images/profile.jpg"
+import profileImg from "../../assets/images/profile.jpg";
 
 export const Home = () => {
   return (
@@ -39,7 +39,7 @@ export const Home = () => {
                 </h1>
                 <p className='mb-1x'>{introdata.description}</p>
                 <div className='intro_btn-action pb-5'>
-                  <Link to='/portfolio' className='text_2 mbl-sm-4'>
+                  <Link to='/portfolio' className='text_2 mb-4'>
                     <div id='button_p' className='ac_btn btn '>
                       My Portfolio
                       <div className='ring one'></div>
