@@ -1,4 +1,5 @@
 const logotext = "Hussien";
+const date = new Date();
 
 const meta = {
   title: "Hussien Tawhidi",
@@ -189,3 +190,44 @@ export {
   socialprofils,
   logotext,
 };
+
+export const blogData = [
+  {
+    id: 1,
+    title: "What Coding Language is Best for Beginners? ",
+    para0:
+      "Like so many questions in life, there is no single right answer to the question, “What is the best programming language for beginners?” Every coding language has its pros and cons. Read this article from Flatiron School to find the best coding language.",
+    postTime: "23:02/3/21/2023",
+  },
+  {
+    id: 2,
+    title: "Deploy a Node.js App to DigitalOcean with SSL",
+    para0:
+      "This step-by-step tutorial walks through the process of deploying a Node.js app to a DigitalOcean droplet with free SSL from Let’s Encrypt for $5/month. ",
+  },
+  {
+    id: 2,
+    title: "",
+    para0:
+      "Each property in the ValidityState can roughly match a specific validation issue: valueMissing would match the required attribute, tooLong and tooShort match minLength and maxLength, etc.",
+    postTime: date.getTime(),
+  },
+  {
+    id: 2,
+    title: "Animations that feel alive using GSAP randomization",
+    para0:
+      "Animations can make web apps feel more fun and alive. In this tutorial, learn how to use GSAP, randomization, and the MotionPath plugin to make your animations feel more lively. ",
+  },
+  {
+    id: 2,
+    title: "Design a Flexible Social Card Template for Sharing Content",
+    para0:
+      "Creating eye-catching social sharing images doesn’t have to take a ton of time. In this post, learn how to create a reusable template for sharing your posts. ",
+  },
+  {
+    id: 2,
+    title: "Upload a Custom Font to Cloudinary Using the Node SDK",
+    para0:
+      "A tutorial on how to upload and use custom fonts in text overlays with Cloudinary to generate images with custom text. ",
+  },
+];

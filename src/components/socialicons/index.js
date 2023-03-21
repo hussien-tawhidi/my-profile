@@ -4,7 +4,6 @@ import {
   FaGithub,
   FaFacebookF,
   FaYoutube,
-  FaTwitch,
   FaInstagram,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
