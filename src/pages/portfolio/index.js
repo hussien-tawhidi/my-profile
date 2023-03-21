@@ -18,8 +18,8 @@ export const Portfolio = () => {
           <h1 className=''>
             Working on some project when it finished will display here please be
             pecient.it will take some days ...
-            <p>
-              <span className='d-flex justify-content-center'>
+            <p className='d-flex justify-content-center'>
+              <span>
                 <FaSmile />
               </span>
             </p>
