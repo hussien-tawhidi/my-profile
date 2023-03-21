@@ -1,7 +1,7 @@
 const logotext = "Hussien";
 
 const meta = {
-  title: "HT",
+  title: "Hussien Tawhidi",
   description: "I’m John Hussien Tawhidi _ Web-developer",
 };
 
