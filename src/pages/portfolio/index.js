@@ -19,7 +19,7 @@ export const Portfolio = () => {
             Working on some project when it finished will display here please be
             pecient.it will take some days ...
             <p>
-              <span className='mx-2'>
+              <span className='d-flex justify-content-center'>
                 <FaSmile />
               </span>
             </p>
