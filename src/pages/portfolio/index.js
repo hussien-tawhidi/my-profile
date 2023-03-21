@@ -18,9 +18,11 @@ export const Portfolio = () => {
           <h1 className='d-flex align-items-center h-100'>
             Working on some project when it finished will display here please be
             pecient.it will take some days ...
-            <span className='mx-2'>
-              <FaSmile />
-            </span>
+            <p>
+              <span className='mx-2'>
+                <FaSmile />
+              </span>
+            </p>
           </h1>
         </div>
         {/* <Row className="mb-5 mt-3 pt-md-3">
