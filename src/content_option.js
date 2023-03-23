@@ -29,24 +29,6 @@ export const dataabout = {
         I worked as graphic designer more than 2 years `,
 };
 
-export const worktimeline = [
-  {
-    jobtitle: "Designer of week",
-    where: "YAdfi",
-    date: "2020",
-  },
-  {
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
-  },
-  {
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
-  },
-];
-
 export const skills = [
   {
     name: "html",
@@ -92,79 +74,30 @@ export const services = [
   },
 ];
 
-export const dataportfolio = [
+export const projects = [
   {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    id: 1,
+    img: "/projects/focus.jpg",
+    desctiption: "html, css, javascript, bootstrap, slick, . . .",
+    link: "https://focus-media.vercel.app/",
   },
   {
-    img: "https://picsum.photos/400/800/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    id: 2,
+    img: "/projects/nike.jpg",
+    desctiption: "Reactjs, bootstrap, swiper, . . .",
+    link: "https://nike-web.vercel.app/",
   },
   {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    id: 3,
+    img: "/projects/profile.jpg",
+    desctiption: "Reactjs, bootstrap, . . .",
+    link: "https://focus-media.vercel.app/",
   },
   {
-    img: "https://picsum.photos/400/600/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/550/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    desctiption:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    id: 4,
+    img: "/projects/profile.jpg",
+    desctiption: "Reactjs, bootstrap, . . .",
+    link: "https://focus-media.vercel.app/",
   },
 ];
 
@@ -191,9 +124,14 @@ export const blogPostData = [
   {
     id: 1,
     image: "/blogPosts/recent1.jpg",
-    title: "How to Build React Forms with Formik",
-    para0:
-      "To simplify this process, the Formik library provides an intuitive solution for building forms in React. Formik has a straightforward API and built-in validation, making collecting and manipulating input data in React applications easy.",
+    title: "Significance SEO for programmers",
+    para0: `
+No one can deny the importance of optimizing a website for search engines. It’s one part of digital marketing that can make or break a business. However, many people don’t realize that optimizing a website isn’t simply the job of the SEO specialist. The developers have to be involved as well. `,
+    para1: `The importance of technical SEO is often underestimated. Unfortunately, many web developers don’t know how to optimize a website for search engines. But there is some good news: sometimes SEO professionals work with developers, so the two disciplines go hand in hand and complement each other!`,
+    para02:
+      "When it comes to technical SEO for web developers, there are some rules that every developer should know. For example, they must know how to redirect various types of URLs so that crawlers can index pages properly. They also need to understand how to create an XML sitemap, which is a list of URLs that helps crawlers understand the site structure. And finally, they need to be familiar with the robots.txt protocol, which makes it possible to block unwanted crawler activity on your website’s pages.",
+    para03:
+      "Technical SEO is about understanding how search engine crawlers index websites and ensure that your pages are optimized for them. It’s much more than just site architecture and the ability to build a well-structured site. Everything has to be done following search engine needs and with the end goal of improved organic ranking.",
     postTime: new Date().toLocaleString(),
   },
   {
@@ -224,34 +162,6 @@ export const blogPostData = [
     title: "What Coding Language is Best for Beginners? ",
     para0:
       "Like so many questions in life, there is no single right answer to the question, “What is the best programming language for beginners?” Every coding language has its pros and cons. Read this article from Flatiron School to find the best coding language.",
-    postTime: new Date().toLocaleString(),
-  },
-  {
-    id: 6,
-    title: "Deploy a Node.js App to DigitalOcean with SSL",
-    para0:
-      "This step-by-step tutorial walks through the process of deploying a Node.js app to a DigitalOcean droplet with free SSL from Let’s Encrypt for $5/month. ",
-    postTime: new Date().toLocaleString(),
-  },
-  {
-    id: 8,
-    title: "Animations that feel alive using GSAP randomization",
-    para0:
-      "Animations can make web apps feel more fun and alive. In this tutorial, learn how to use GSAP, randomization, and the MotionPath plugin to make your animations feel more lively. ",
-    postTime: new Date().toLocaleString(),
-  },
-  {
-    id: 9,
-    title: "Design a Flexible Social Card Template for Sharing Content",
-    para0:
-      "Creating eye-catching social sharing images doesn’t have to take a ton of time. In this post, learn how to create a reusable template for sharing your posts. ",
-    postTime: new Date().toLocaleString(),
-  },
-  {
-    id: 10,
-    title: "Upload a Custom Font to Cloudinary Using the Node SDK",
-    para0:
-      "A tutorial on how to upload and use custom fonts in text overlays with Cloudinary to generate images with custom text. ",
     postTime: new Date().toLocaleString(),
   },
 ];

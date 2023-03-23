@@ -1,9 +1,28 @@
-import { homeFeatures } from "../content_option";
-import lodash from "lodash";
 import { Link } from "react-router-dom";
+import lodash from "lodash";
 import Slider from "react-slick";
+import { homeFeatures } from "../content_option";
+
+function SampleNextArrow(props) {
+  const { onClick } = props;
+  return (
+    <div className='d-flex justify-content-end h1' onClick={onClick}>
+      <i class='bi bi-arrow-right'></i>
+    </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { onClick } = props;
+  return (
+    <div className='d-flex justify-content-start h1' onClick={onClick}>
+      <i class='bi bi-arrow-left'></i>
+    </div>
+  );
+}
+
 export default function HomeFeatures() {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
     autoplay: true,
@@ -13,6 +32,8 @@ export default function HomeFeatures() {
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,

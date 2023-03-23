@@ -5,7 +5,7 @@ export default function RecentBlogPosts() {
   return (
     <div className='recent-post-blog'>
       <div className='container'>
-        <p className='h1'>Recent Posts</p>
+        <p className='h1'>Recent posts on blog</p>
         <div className='row'>
           {blogPostData.slice(0, 3).map((item) => (
             <div className='col-md-4 col-12 h-50'>

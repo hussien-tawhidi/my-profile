@@ -9,6 +9,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 import RecentBlogPosts from "../../components/recentBlogPosts/RecentBlogPosts";
 import HomeAboutMeText from "../../components/HomeAboutMeText";
 import HomeFeatures from "../../components/HomeFeatures";
+import Projects from "../../components/projects/Projects";
 
 export const Home = () => {
   return (
@@ -65,9 +66,9 @@ export const Home = () => {
           </div>
         </div>
         <HomeAboutMeText />
-        <HomeFeatures/>
+        <HomeFeatures />
+        <Projects />
         <RecentBlogPosts />
-        
       </section>
     </HelmetProvider>
   );

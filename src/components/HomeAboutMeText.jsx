@@ -1,5 +1,6 @@
 import { FaQuoteLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { truncate } from "lodash";
 import { dataabout } from "../content_option";
 
 export default function HomeAboutMeText() {
@@ -11,8 +12,7 @@ export default function HomeAboutMeText() {
           <span className='mx-2 text-danger'>
             <FaQuoteLeft />
           </span>
-          {dataabout.aboutme}
-          <span className='mx-2'>. . .</span>
+          {truncate(dataabout.aboutme, { length: 400 })}
           <Link to={"/about"} className='text-danger'>
             for more
           </Link>
