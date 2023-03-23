@@ -42,7 +42,10 @@ export const Home = () => {
                   />
                 </h1>
                 <p className='mb-1x'>{introdata.description}</p>
-                <div className='intro_btn-action pb-5'>
+                <figcaption className='blockquote-footer'>
+                  <cite title='Source Title'>Hussien Tawhidi</cite>
+                </figcaption>
+                <div className='intro_btn-action home-btn-margin-top'>
                   <Link to='/portfolio' className='text_2'>
                     <div id='button_p' className='ac_btn btn '>
                       My Portfolio

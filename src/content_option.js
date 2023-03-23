@@ -14,7 +14,8 @@ export const introdata = {
     second: "I code cool design",
     third: "I develop web developer",
   },
-  description: "",
+  description:
+    "Programmers are tiny gods who create programs and others use them, so let's create something good",
 };
 
 export const dataabout = {

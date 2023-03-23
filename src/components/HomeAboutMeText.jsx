@@ -7,7 +7,7 @@ export default function HomeAboutMeText() {
   return (
     <div className='home-about-me my-5 pb-2'>
       <div className='container'>
-        <h1>{dataabout.title}</h1>
+        <h1 className='home-recent-blog-post-title my-2'>{dataabout.title}</h1>
         <p className='lead'>
           <span className='mx-2 text-danger'>
             <FaQuoteLeft />

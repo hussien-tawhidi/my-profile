@@ -3,7 +3,7 @@ import { blogPostData } from "../../content_option";
 
 export default function RecentBlogPosts() {
   return (
-    <div className='recent-post-blog pt-5 mt-5'>
+    <div className='recent-post-blog py-5 mt-5'>
       <div className='container'>
         <p className='home-recent-blog-post-title d-flex my-4'>Recent posts on blog</p>
         <div className='row'>
