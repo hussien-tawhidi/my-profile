@@ -94,3 +94,17 @@ code {
 .color_sec {
     color: var(--secondary-color);
 }
+.home-recent-blog-post-title{
+    font-size: 30px;
+    position: relative;
+}
+.home-recent-blog-post-title::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 15%;
+    height: 3px;
+    background-color: rgb(204, 0, 0);
+}
