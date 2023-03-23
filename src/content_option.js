@@ -1,12 +1,13 @@
-const logotext = "Hussien";
-const date = new Date();
+export const date = new Date();
 
-const meta = {
+export const logotext = "Hussien";
+
+export const meta = {
   title: "Hussien Tawhidi",
   description: "I’m John Hussien Tawhidi _ Web-developer",
 };
 
-const introdata = {
+export const introdata = {
   title: "I’m Hussien Tawhidi",
   animated: {
     first: "I love coding",
@@ -16,12 +17,19 @@ const introdata = {
   description: "",
 };
 
-const dataabout = {
+export const dataabout = {
   title: "Abit about my self",
-  aboutme: `"The world of programming is very big. Almost every day we all use programs created by programmers. Like phone softwares or computer softwares or websites. Currently, in the world of trading, having a website is the most important part of the company. A good site can make your business grow. But you don't know a reputable brand or company that doesn't have a website. Currently, all reputable brands in the world conduct their transactions through these sites ..."`,
+  aboutme: `I grew up in Kabul, Afghanistan, in a briliant family. My concern in
+        programming & for more experiences brought me to Iran in 2020 to
+        continue my educations in Islamic Azad University. in my early came to
+        Iran. I got English diploma when I was 8th grade in school. After I got
+        school diploma I went to military service. Than continued my education
+        in software engineering special in web-development (front-end & backend)
+        and graphic designing (photo editing, poster, branding, video editing . . . ) .
+        I worked as graphic designer more than 2 years `,
 };
 
-const worktimeline = [
+export const worktimeline = [
   {
     jobtitle: "Designer of week",
     where: "YAdfi",
@@ -39,7 +47,7 @@ const worktimeline = [
   },
 ];
 
-const skills = [
+export const skills = [
   {
     name: "html",
     value: 90,
@@ -66,7 +74,7 @@ const skills = [
   },
 ];
 
-const services = [
+export const services = [
   {
     title: "Web Development(front-end)",
     description:
@@ -84,7 +92,7 @@ const services = [
   },
 ];
 
-const dataportfolio = [
+export const dataportfolio = [
   {
     img: "https://picsum.photos/400/?grayscale",
     desctiption:
@@ -160,7 +168,7 @@ const dataportfolio = [
   },
 ];
 
-const contactConfig = {
+export const contactConfig = {
   YOUR_EMAIL: "hussientawhidi710@gmail.com",
   YOUR_FONE: "(+98) 903 093 1288",
   description:
@@ -172,62 +180,105 @@ const contactConfig = {
   YOUR_USER_ID: "LuxJBqpAMD_htyoGR",
 };
 
-const socialprofils = {
+export const socialprofils = {
   github: "https://github.com/hussien-tawhidi",
   facebook: "https://www.facebook.com/hossien.tawhidi",
   instagram: "https://www.instagram.com/h_tawhidi/",
   youtube: "https://www.youtube.com/channel/UCc30PTxXlyPf0f26SuKV52Q",
 };
-export {
-  meta,
-  dataabout,
-  dataportfolio,
-  worktimeline,
-  skills,
-  services,
-  introdata,
-  contactConfig,
-  socialprofils,
-  logotext,
-};
 
-export const blogData = [
+export const blogPostData = [
   {
     id: 1,
+    image: "/blogPosts/recent1.jpg",
+    title: "How to Build React Forms with Formik",
+    para0:
+      "To simplify this process, the Formik library provides an intuitive solution for building forms in React. Formik has a straightforward API and built-in validation, making collecting and manipulating input data in React applications easy.",
+    postTime: new Date().toLocaleString(),
+  },
+  {
+    id: 2,
+    image: "/blogPosts/recent2.jpg",
+    title: "How to Get Started with Docker using NodeJS",
+    para0:
+      "Let's assume you're joining a new company and you have been assigned to an extremely huge project to work on. You received a brand new laptop and are ready to put on your development shoes.",
+    postTime: new Date().toLocaleString(),
+  },
+  {
+    id: 3,
+    image: "/blogPosts/recent3.jpg",
+    title: "JavaScript One-Liners to Use in Every Project",
+    para0:
+      "In some cases, the amount of code you need to write doesn't exceed more than a single line, which is why they are known as one-liners.Let's go through 10 essential one liners worth using in virtually every JavaScript project you create.",
+    postTime: new Date().toLocaleString(),
+  },
+  {
+    id: 4,
+    title: "How to Build Forms in React",
+    para0:
+      "Without forms, many of the tasks that we take for granted on the web, such as logging in, signing up, or making purchases, would not be possible.As such, learning how to create effective and user-friendly forms is essential for developers looking to build engaging and interactive web applications",
+    postTime: new Date().toLocaleString(),
+  },
+  {
+    id: 5,
     title: "What Coding Language is Best for Beginners? ",
     para0:
       "Like so many questions in life, there is no single right answer to the question, “What is the best programming language for beginners?” Every coding language has its pros and cons. Read this article from Flatiron School to find the best coding language.",
-    postTime: "23:02/3/21/2023",
+    postTime: new Date().toLocaleString(),
   },
   {
-    id: 2,
+    id: 6,
     title: "Deploy a Node.js App to DigitalOcean with SSL",
     para0:
       "This step-by-step tutorial walks through the process of deploying a Node.js app to a DigitalOcean droplet with free SSL from Let’s Encrypt for $5/month. ",
+    postTime: new Date().toLocaleString(),
   },
   {
-    id: 2,
-    title: "",
-    para0:
-      "Each property in the ValidityState can roughly match a specific validation issue: valueMissing would match the required attribute, tooLong and tooShort match minLength and maxLength, etc.",
-    postTime: date.getTime(),
-  },
-  {
-    id: 2,
+    id: 8,
     title: "Animations that feel alive using GSAP randomization",
     para0:
       "Animations can make web apps feel more fun and alive. In this tutorial, learn how to use GSAP, randomization, and the MotionPath plugin to make your animations feel more lively. ",
+    postTime: new Date().toLocaleString(),
   },
   {
-    id: 2,
+    id: 9,
     title: "Design a Flexible Social Card Template for Sharing Content",
     para0:
       "Creating eye-catching social sharing images doesn’t have to take a ton of time. In this post, learn how to create a reusable template for sharing your posts. ",
+    postTime: new Date().toLocaleString(),
   },
   {
-    id: 2,
+    id: 10,
     title: "Upload a Custom Font to Cloudinary Using the Node SDK",
     para0:
       "A tutorial on how to upload and use custom fonts in text overlays with Cloudinary to generate images with custom text. ",
+    postTime: new Date().toLocaleString(),
+  },
+];
+
+export const homeFeatures = [
+  {
+    id: 1,
+    icon: <i class='bi bi-emoji-sunglasses'></i>,
+    title: "Beautiful Desgin",
+    desc: "all love beauty and creativity. An attractive website. Itwill have a great impact on your audience",
+  },
+  {
+    id: 2,
+    icon: <i class='bi bi-shield-lock-fill'></i>,
+    title: "Safety In Websites",
+    desc: "Safety is the most important part of the websites, due to the widespread attacks of competitors and hackers, a website must be extremely secure, so that hackers and competitors can't access your users' files and data",
+  },
+  {
+    id: 3,
+    icon: <i class='bi bi-tablet'></i>,
+    title: "Responsiveness",
+    desc: "Responsiveness means that your show various reactions to various screen sizes (computer, tablet and mobile phone). This feature helps anyone with any device to easily use your site",
+  },
+  {
+    id: 4,
+    icon: <i class='bi bi-google'></i>,
+    title: "SEO",
+    desc: "By SEO you focus on your audience that needs your product or service, and by attracting audiences through their searches on Google, you have a high chance of converting them into customers and thus generating income. So the importance of SEO in attracting customers and earning more money",
   },
 ];

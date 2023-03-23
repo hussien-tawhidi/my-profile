@@ -1,0 +1,23 @@
+import { FaQuoteLeft } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { dataabout } from "../content_option";
+
+export default function HomeAboutMeText() {
+  return (
+    <div className='home-about-me my-5 pb-2'>
+      <div className='container'>
+        <h1>{dataabout.title}</h1>
+        <p className='lead'>
+          <span className='mx-2 text-danger'>
+            <FaQuoteLeft />
+          </span>
+          {dataabout.aboutme}
+          <span className='mx-2'>. . .</span>
+          <Link to={"/about"} className='text-danger'>
+            for more
+          </Link>
+        </p>
+      </div>
+    </div>
+  );
+}

@@ -2,9 +2,13 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
+import { introdata, meta, dataabout } from "../../content_option";
 import { Link } from "react-router-dom";
 import profileImg from "../../assets/images/profile.jpg";
+import { FaQuoteLeft } from "react-icons/fa";
+import RecentBlogPosts from "../../components/recentBlogPosts/RecentBlogPosts";
+import HomeAboutMeText from "../../components/HomeAboutMeText";
+import HomeFeatures from "../../components/HomeFeatures";
 
 export const Home = () => {
   return (
@@ -48,7 +52,7 @@ export const Home = () => {
                     </div>
                   </Link>
                   <Link to='/contact'>
-                    <div id='button_h' className='ac_btn btn mt-4'>
+                    <div id='button_h' className='ac_btn btn'>
                       Contact Me
                       <div className='ring one'></div>
                       <div className='ring two'></div>
@@ -60,6 +64,10 @@ export const Home = () => {
             </div>
           </div>
         </div>
+        <HomeAboutMeText />
+        <HomeFeatures/>
+        <RecentBlogPosts />
+        
       </section>
     </HelmetProvider>
   );

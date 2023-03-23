@@ -1,7 +1,7 @@
 import lodash from "lodash";
 import moment from "moment/moment";
-import { blogData } from "../../content_option";
-import { FaArrowLeft, FaArrowRight, FaClock } from "react-icons/fa";
+import { blogPostData } from "../../content_option";
+import { FaArrowRight, FaClock } from "react-icons/fa";
 
 export default function Blog() {
   return (
@@ -12,7 +12,7 @@ export default function Blog() {
             <img src='./blog-banner.jpg' alt='' className='img-fluid' />
             <div className='container'>
               <div className='row justify-content-center'>
-                {blogData?.map((topic) => (
+                {blogPostData?.map((topic) => (
                   <div className='col-lg-8 col-12' key={topic.id}>
                     <div className='post-preview border-bottom my-4'>
                       <a href='post.html'>
@@ -32,12 +32,19 @@ export default function Blog() {
                       </code>
                       <p className='post-meta'>
                         Posted by
-                        <span className="py-4">Start Bootstrap</span>
+                        <span className='py-4'>Hussien Tawhidi</span>
                         <p className='time'>
                           <span className='mx-2'>
                             <FaClock />
                           </span>
-                          <span>{moment().startOf("seconds").fromNow()}</span>
+                          <h1>
+                            {moment(topic.postTime).format(
+                              "MMMM Do YYYY, h:mm:ss a"
+                            )}
+                          </h1>
+                          <span>
+                            {moment(topic.postTime).startOf("second").fromNow()}
+                          </span>
                         </p>
                       </p>
                     </div>
@@ -60,13 +67,13 @@ export default function Blog() {
                     )}
                   </p>
                   <code>
-                     <a href='/' class='btn btn-light'>
-                    See More ...{" "}
-                    <span>
-                      <FaArrowRight />
-                    </span>
-                  </a>
-                 </code>
+                    <a href='/' class='btn btn-light'>
+                      See More ...{" "}
+                      <span>
+                        <FaArrowRight />
+                      </span>
+                    </a>
+                  </code>
                 </div>
               </div>
             </div>
