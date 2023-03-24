@@ -22,7 +22,7 @@ export default function RecentBlogPosts() {
             <div className='col-md-4 col-12 h-50'>
               <div className='transparent rounded overflow-hidden'>
                 <img src={item.image} className='card-img-top ' alt='...' />
-                <p className='d-flex align-items-center justify-content-between mt-2 opacity-75'>
+                <p className='d-flex align-items-center justify-content-between mt-2 opacity-50'>
                   <p>
                     <span className='me-1'>
                       <i class='bi bi-calendar3'></i>
