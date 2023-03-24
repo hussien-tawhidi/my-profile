@@ -11,7 +11,7 @@ export default function Blog() {
           <img src='./blog-banner.jpg' alt='' className='img-fluid' />
           <div className='row'>
             {blogPostData?.map((topic) => (
-              <div className='col-4'>
+              <div className='col-lg-4 col-md-6 col-12'>
                 <div class='blog_post my-3'>
                   <img src={topic.image} alt='' className='img-fluid' />
                   <div class='container_copy'>
