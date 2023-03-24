@@ -8,6 +8,8 @@ import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Blog from "../pages/blog/Blog";
+import SeoAndWeb from "../pages/blog/SeoAndWeb";
+import GoodAndBad from "../pages/blog/GoodAndBad";
 
 const AnimatedRoutes = withRouter(({ location }) => (
   <TransitionGroup>
@@ -26,6 +28,11 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path='/contact' element={<ContactUs />} />
         <Route path='*' element={<Home />} />
         <Route path='/blog' element={<Blog />} />
+        <Route path='/importance-of-seo-in-websites' element={<SeoAndWeb />} />
+        <Route
+          path='/suitable-and-unfavourable-websiltes'
+          element={<GoodAndBad />}
+        />
       </Routes>
     </CSSTransition>
   </TransitionGroup>

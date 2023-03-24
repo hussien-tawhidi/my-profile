@@ -1,5 +1,6 @@
 import lodash, { truncate } from "lodash";
 import moment from "moment/moment";
+import { Link } from "react-router-dom";
 import { blogPostData } from "../../content_option";
 import "./blog.scss";
 export default function Blog() {
@@ -38,9 +39,11 @@ export default function Blog() {
                         separator: " ",
                       })}
                     </p>
-                    <a class='btn_primary' href='/' target='_blankp'>
+                    <Link
+                      to='/importance-of-seo-in-websites'
+                      class='btn_primary'>
                       Read More
-                    </a>
+                    </Link>
                   </div>
                   <div className='author my-2'>
                     <div className='profile'>

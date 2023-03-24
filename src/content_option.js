@@ -124,33 +124,43 @@ export const blogPostData = [
   {
     id: 1,
     image: "/blogPosts/seo&web.png",
-    title: "Significance SEO for programmers",
-    para0: `
-No one can deny the importance of optimizing a website for search engines. It’s one part of digital marketing that can make or break a business. However, many people don’t realize that optimizing a website isn’t simply the job of the SEO specialist. The developers have to be involved as well. `,
-    para1: `The importance of technical SEO is often underestimated. Unfortunately, many web developers don’t know how to optimize a website for search engines. But there is some good news: sometimes SEO professionals work with developers, so the two disciplines go hand in hand and complement each other!`,
+    linkTo: "/importance-of-seo-in-websites",
+    title: "Why SEO Is Important To Your Website",
+    para0:
+      'People ask the questions of "How does SEO work?" and "What does SEO entail?" but I will do you one better — "Why is SEO?" Why is SEO important to a website? Why would you want to optimize a website for search engines? Ultimately, it’s making your website show up in search engines in order to get more traffic. Obviously, you want traffic on your website, but the quality of the traffic matters — quality over quantity. What you are really doing is making the website a better answer for search engines so more people come to your site to see your services, products or information. ',
+    title1: "What’s the reason for a website?",
+    para1:
+      "The first question to ask would be, “Why do you have a website?” The reason behind your website could be to help with sales, get leads and disseminate information. Generally, websites are not built to sit still and look pretty. That's not their job. Their job is to do something — to help people get information, to get leads, to sell stuff, to answer questions, to be newsworthy, to have great photos, to show off your videos. ",
     para2:
-      "When it comes to technical SEO for web developers, there are some rules that every developer should know. For example, they must know how to redirect various types of URLs so that crawlers can index pages properly. They also need to understand how to create an XML sitemap, which is a list of URLs that helps crawlers understand the site structure. And finally, they need to be familiar with the robots.txt protocol, which makes it possible to block unwanted crawler activity on your website’s pages.",
+      "There are a hundred different reasons to have a website, but you need to find the reason for your website. Once you have a solid reason, make sure everyone who works on the site understands that reason. They can help the site clearly explain that reason to people visiting and the search engines looking at your site. If you are trying to sell something, make it obvious what it is, what it does, the price, how to add it to a cart, how to purchase it and how to pay.  ",
     para3:
-      "Technical SEO is about understanding how search engine crawlers index websites and ensure that your pages are optimized for them. It’s much more than just site architecture and the ability to build a well-structured site. Everything has to be done following search engine needs and with the end goal of improved organic ranking.",
+      "What do you do when your entire reason for a website is just to disseminate information? There are goals with giving out that information. You want as many people as possible to see that information — for example, a site that answers questions about health and wellness and asks people to sign up for the newsletter. Because the end goal is giving out more information, it is a good idea to get a list of people who are into the same subject matter. With a community of like-minded people, you can share information, products and support. If your website is clear about that, it can bring the right people in, tell them to sign up for the newsletter and start creating a group.",
     para4:
-      "On the whole, web developers and SEOs need to work together to satisfy customers. Too often, web devs design and build websites without thinking of how search engines will rank them, and SEOs come in afterward trying to fix what should have been done right the first time. With both groups working together right from the beginning, customers will be happier with the finished product and with the results from their website’s search engine ranking.",
+      "New SEO tech requirements include useability, which is something you should want without Google telling you.",
     para5:
-      "Neither group can do their job well if they aren’t working together from the start. Web devs need to understand how search engines rank websites, and SEOs need to know how websites are coded and designed. By working together, they can create a website that is both pleasing to the eye and good for search engines.",
+      "In 2021, Google’s update looked at technical requirements regarding useability that started to really influence rankings against other sites. Usability became a large piece of Google’s search algorithm. You want great usability for your website. People should be able to use your website easily and do either what they want or what you want them to do. Google realized that and looked at ways to judge it and make it part of the algorithm. If your site is hard to use, then Google doesn’t want to send people there just for them to be frustrated. ",
     para6:
-      "For a website to truly be successful, both the SEOs and developers must work together to create a functionally and visually engaging website. By collaborating, they can ensure that the website meets all requirements and provides a great user experience. Their collaboration will result in a graphically good website with all the needed functionality without any SEO issues.",
+      "Your website should have been focusing on useability before Google found it important. Now Google is looking at your usability versus the websites you are competing with. If all websites are terrible at usability, then you are equal. If one site is better at it, it will now rank higher. Are you sitting around wondering what happened in 2021? As people found your website difficult to use — because it loads slow or the layout is not user-friendly — Google noticed. You want that to be more obvious to you, so don’t wait until Google slaps your rankings. ",
     para7:
-      "Developers work on creating a well-functioning website, while SEOs help to improve its visibility. By combining these two specialties, businesses can create a website that looks great and functions flawlessly.",
+      "As your website becomes optimized for search engines, the important thing to think about is “Why is my website there? What does it do well? Who needs that information?” After that, you then consider “How can I make it easy for them to get what they need?” When you answer those questions, your website will start to flow. As you optimize for search engines, you will start being a great answer to a question and people will come to your site to get what you have.",
     para8:
-      "A website that functions perfectly and looks professional can produce a high conversion rate, leading to more sales for the company. Additionally, a website that is both SEO and user-friendly usually ranks higher in search results than one without this advantage. ",
+      "Google is always trying to be better at answering questions. Someone asked the other day, “SEO is always changing. Does it seem to be a constantly moving target?” Not if you do it right, because Google’s ultimate goal is to get better at answering questions. It remains constant. Google wants to be the authority as the smartest answer to people's questions. If you optimize your website the right way with high-quality work aimed at being the best answer to the question, then you don't need to worry about the next update because you and Google are moving in the same direction. You're not fighting against the flow of Google's ultimate goal.",
+    title2: "SEO web design attracts more organic traffic",
     para9:
-      "A web developers’ job isn’t just coding. It’s also to ensure that the website is fully functional and no errors are present. As search engines crawl through pages, they may notice errors such as broken links, low loading speed, 4xx errors, etc., leading to a lower page rank. If there are errors on your website, Google may not even index it properly. ",
+      "SEO website design will help you attract more organic traffic to your site. By creating a well-designed website that is easy to navigate and search through, you will increase your chances of ranking at the top for your desired keywords",
     para10:
-      "Both groups can identify issues more quickly and fix them by working together. While SEOs are experts at identifying errors on the site that could affect rankings, developers can go in and correct these errors, so they’re no longer on the site. Without such a collaboration, these problems will likely exist for a longer time and can affect search engine rankings.",
+      "An optimized website will help your business attract more visitors from search engines who are more likely to convert into customers.Getting high-intent traffic is arguably more important than other types of traffic as it has a higher chance of converting. That is why you should prioritize optimizing your website to increase search engine rankings and drive more organic traffic.",
+    title3: "SEO web design helps improves user experience",
+    para11:
+      "User experience is the most important aspect of web design. Poor UX can lead to unhappy website visitors and lost revenue. If you want your website to rank well and convert visitors into leads, you need to ensure that the website is both SEO optimized and user-friendly.",
+    para12:
+      "By designing a website with SEO in mind, you will be able to provide a seamless user experience to your website visitors. This includes making sure your site is responsive, easy to use and navigate, using clear and concise content, and ensuring your site loads quickly.",
     postTime: date,
   },
   {
     id: 2,
-    image: "/blogPosts/good&bad.jpg",
+    image: "/blogPosts/good&bad.png",
+    linkTo:"/suitable-and-unfavourable-websiltes",
     title: "The discrepancy between a suitable and a unfavourable website",
     para0:
       "As much as words are important for a speaker, the design of a website is also vital for business!",
@@ -179,7 +189,7 @@ No one can deny the importance of optimizing a website for search engines. It’
   },
   {
     id: 3,
-    image: "/blogPosts/security&web.jpg",
+    image: "/blogPosts/security&web.png",
     title: "Website security",
     para0:
       "Website security requires vigilance in all aspects of website design and usage. This introductory article won't make you a website security guru, but it will help you understand where threats come from, and what you can do to harden your web application against the most common attacks",

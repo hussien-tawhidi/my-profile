@@ -52,9 +52,9 @@ export default function RecentBlogPosts() {
                     {truncate(item?.para0, {
                       length: 65,
                     })}
-                    <a href='/' className='btn text-danger'>
+                    <Link to={item.linkTo} className='btn text-danger'>
                       Learn more ...
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
