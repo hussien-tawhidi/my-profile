@@ -42,7 +42,7 @@ export const Home = () => {
                   />
                 </h1>
                 <p className='mb-1x'>{introdata.description}</p>
-                <figcaption className='blockquote-footer'>
+                <figcaption className='blockquote-footer mt-1'>
                   <cite title='Source Title'>Hussien Tawhidi</cite>
                 </figcaption>
                 <div className='intro_btn-action home-btn-margin-top'>
