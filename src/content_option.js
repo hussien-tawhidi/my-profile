@@ -10,9 +10,8 @@ export const meta = {
 export const introdata = {
   title: "I’m Hussien Tawhidi",
   animated: {
-    first: "I love coding",
-    second: "I code cool design",
-    third: "I develop web developer",
+    first: "clean architecture",
+    second: "stylish design",
   },
   description:
     "Programmers are tiny gods who create programs and others use them, so let's create something good",
@@ -96,9 +95,9 @@ export const projects = [
   },
   {
     id: 4,
-    img: "/projects/profile.jpg",
+    img: "/projects/sample.png",
     desctiption: "Reactjs, bootstrap, . . .",
-    link: "https://focus-media.vercel.app/",
+    link: "https://sample-web-beta.vercel.app/",
   },
 ];
 

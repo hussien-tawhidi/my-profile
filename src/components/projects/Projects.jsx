@@ -22,8 +22,8 @@ export default function Projects() {
     dots: false,
     infinite: true,
     autoplay: true,
-    speed: 3000,
-    autoplaySpeed: 3000,
+    speed: 6000,
+    autoplaySpeed: 6000,
     cssEase: "linear",
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -67,7 +67,7 @@ export default function Projects() {
           <div className='single'>
             <div className='row'>
               <Slider {...settings}>
-                {projects.slice(0, 3).map((project) => (
+                {projects.map((project) => (
                   <div key={project.id}>
                     <img src={project.img} alt='' className='img-fluid' />
                   </div>

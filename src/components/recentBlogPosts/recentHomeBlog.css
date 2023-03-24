@@ -1,0 +1,35 @@
+.blog-title {
+  color: var(--text-title-color);
+}
+.blog-title p {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-spacing: 1rem;
+  margin-right: 10%;
+  position: relative;
+}
+.blog-title p::after{
+     content: "";
+  position: absolute;
+  bottom: -0.5rem;
+  right: 0;
+  width: 15%;
+  height: 5px;
+  border-radius: 10px;
+  background-color: var(--text-title-color);
+}
+.blog-title h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 350px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+.blog-title span {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #313b44;
+}
