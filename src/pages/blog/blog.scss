@@ -1,0 +1,26 @@
+.author {
+  display: flex;
+  align-items: center;
+  .profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .texts {
+    margin-left: 10px;
+    .name {
+      font-size: 16px;
+      font-style: italic;
+    }
+    .jobs {
+        font-size: 12px;
+      font-style: italic;
+    }
+  }
+}

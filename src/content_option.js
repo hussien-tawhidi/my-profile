@@ -1,4 +1,4 @@
-export const date = new Date();
+const date = new Date();
 
 export const logotext = "Hussien";
 
@@ -146,41 +146,10 @@ No one can deny the importance of optimizing a website for search engines. It’
       "A web developers’ job isn’t just coding. It’s also to ensure that the website is fully functional and no errors are present. As search engines crawl through pages, they may notice errors such as broken links, low loading speed, 4xx errors, etc., leading to a lower page rank. If there are errors on your website, Google may not even index it properly. ",
     para10:
       "Both groups can identify issues more quickly and fix them by working together. While SEOs are experts at identifying errors on the site that could affect rankings, developers can go in and correct these errors, so they’re no longer on the site. Without such a collaboration, these problems will likely exist for a longer time and can affect search engine rankings.",
-    postTime: new Date().toLocaleString(),
+    postTime: date,
   },
   {
     id: 2,
-    image: "/blogPosts/pogrammingLanguage.jpg",
-    title: "What’s the Best Programming Language to Learn First? It Depends",
-    para0:
-      "Whether you’re looking to begin coding as a hobby, a new career, or just to enhance your current role, the first thing you’ll have to do is decide which programming language you want to start with.",
-    para1:
-      "There is no right answer, of course. Choosing a first language will depend on what kind of projects you want to work on, who you want to work for, or how easy you want it to be. Hopefully, this guide will help give you a better idea of which one you should pursue.",
-    title1: "Pythone",
-    para2:
-      "Python is always recommended if you’re looking for an easy and even fun programming language to learn first. Rather than having to jump into strict syntax rules, Python reads like English and is simple to understand for someone who’s new to programming. This allows you to obtain a basic knowledge of coding practices without having to obsess over smaller details that are often important in other languages.",
-    para3:
-      "Python also is ideal for web development, graphic user interfaces (GUIs), and software development. In fact, it was used to build Instagram, YouTube, and Spotify, so it’s clearly in demand among employers in addition to having a faster onboarding.",
-    title2: "Javascript",
-    para4:
-      "JavaScript is another incredibly popular language. Many websites that you use every day rely on JavaScript including Twitter, Gmail, Spotify, Facebook, and Instagram according to General Assembly.",
-    para5:
-      "Additionally, it’s a must-have when adding interactivity to websites because it communicates with HTML and CSS. This makes it essential for front-end development and consumer-facing websites while becoming increasingly important in back-end development and growing in demand all the time. Because of its popularity, JavaScript is also the leading the charge in test automation frameworks, being the backbone of frameworks like Protractor and Nightwatch.JS.",
-    para6:
-      "There’s nothing to install with JavaScript since it’s already built into browsers, so it’s the easiest language to get started with in terms of set-up. The con here is that this means it’s interpreted differently across browsers (you’ll need to do some extra cross-browser testing) and may have deficiencies in responsive design compared to server-side scripts.",
-    para7:
-      "Again, while it’s not the most difficult to learn, it certainly isn’t as easy as Python. If Javascript does seem difficult at first, try out this Javascript tutorial that’s so easy a cat could do it.",
-    title3: "C#",
-    para8:
-      "While C is one of the more difficult languages to learn, it’s still an excellent first language pick up because almost all programming languages are implemented in it. This means that once you learn C, it’ll be simple to learn more languages like C++ and C#.",
-    para9:
-      "Because C is more “machine-level”, learning it is great for teaching you how a computer functions. Software Developer Joel Spolsky compares it to understanding basic anatomy before becoming a medical doctor, making it the best way to code efficiently.",
-    para10:
-      "In this way, C is an exceptional choice to become a master coder and a talented developer from the get-go if you’re willing to take on the challenge.",
-    postTime: new Date().toLocaleString(),
-  },
-  {
-    id: 3,
     image: "/blogPosts/good&bad.jpg",
     title: "The discrepancy between a suitable and a unfavourable website",
     para0:
@@ -209,17 +178,42 @@ No one can deny the importance of optimizing a website for search engines. It’
     postTime: new Date().toLocaleString(),
   },
   {
-    id: 4,
-    title: "How to Build Forms in React",
+    id: 3,
+    image: "/blogPosts/security&web.jpg",
+    title: "Website security",
     para0:
-      "Without forms, many of the tasks that we take for granted on the web, such as logging in, signing up, or making purchases, would not be possible.As such, learning how to create effective and user-friendly forms is essential for developers looking to build engaging and interactive web applications",
+      "Website security requires vigilance in all aspects of website design and usage. This introductory article won't make you a website security guru, but it will help you understand where threats come from, and what you can do to harden your web application against the most common attacks",
     postTime: new Date().toLocaleString(),
   },
   {
-    id: 5,
-    title: "What Coding Language is Best for Beginners? ",
+    id: 4,
+    image: "/blogPosts/pogrammingLanguage.jpg",
+    title: "What’s the Best Programming Language to Learn First? It Depends",
     para0:
-      "Like so many questions in life, there is no single right answer to the question, “What is the best programming language for beginners?” Every coding language has its pros and cons. Read this article from Flatiron School to find the best coding language.",
+      "Whether you’re looking to begin coding as a hobby, a new career, or just to enhance your current role, the first thing you’ll have to do is decide which programming language you want to start with.",
+    para1:
+      "There is no right answer, of course. Choosing a first language will depend on what kind of projects you want to work on, who you want to work for, or how easy you want it to be. Hopefully, this guide will help give you a better idea of which one you should pursue.",
+    title1: "Pythone",
+    para2:
+      "Python is always recommended if you’re looking for an easy and even fun programming language to learn first. Rather than having to jump into strict syntax rules, Python reads like English and is simple to understand for someone who’s new to programming. This allows you to obtain a basic knowledge of coding practices without having to obsess over smaller details that are often important in other languages.",
+    para3:
+      "Python also is ideal for web development, graphic user interfaces (GUIs), and software development. In fact, it was used to build Instagram, YouTube, and Spotify, so it’s clearly in demand among employers in addition to having a faster onboarding.",
+    title2: "Javascript",
+    para4:
+      "JavaScript is another incredibly popular language. Many websites that you use every day rely on JavaScript including Twitter, Gmail, Spotify, Facebook, and Instagram according to General Assembly.",
+    para5:
+      "Additionally, it’s a must-have when adding interactivity to websites because it communicates with HTML and CSS. This makes it essential for front-end development and consumer-facing websites while becoming increasingly important in back-end development and growing in demand all the time. Because of its popularity, JavaScript is also the leading the charge in test automation frameworks, being the backbone of frameworks like Protractor and Nightwatch.JS.",
+    para6:
+      "There’s nothing to install with JavaScript since it’s already built into browsers, so it’s the easiest language to get started with in terms of set-up. The con here is that this means it’s interpreted differently across browsers (you’ll need to do some extra cross-browser testing) and may have deficiencies in responsive design compared to server-side scripts.",
+    para7:
+      "Again, while it’s not the most difficult to learn, it certainly isn’t as easy as Python. If Javascript does seem difficult at first, try out this Javascript tutorial that’s so easy a cat could do it.",
+    title3: "C#",
+    para8:
+      "While C is one of the more difficult languages to learn, it’s still an excellent first language pick up because almost all programming languages are implemented in it. This means that once you learn C, it’ll be simple to learn more languages like C++ and C#.",
+    para9:
+      "Because C is more “machine-level”, learning it is great for teaching you how a computer functions. Software Developer Joel Spolsky compares it to understanding basic anatomy before becoming a medical doctor, making it the best way to code efficiently.",
+    para10:
+      "In this way, C is an exceptional choice to become a master coder and a talented developer from the get-go if you’re willing to take on the challenge.",
     postTime: new Date().toLocaleString(),
   },
 ];
