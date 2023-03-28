@@ -13,7 +13,7 @@ export default function RecentBlogPosts() {
         </h1>
         <Link to='/blog'>
           {" "}
-          <p className='d-flex justify-content-end'>On my blog</p>
+          <p className='d-flex justify-content-end'>SOME FEATURES</p>
         </Link>
       </div>
       <div className='container my-5'>

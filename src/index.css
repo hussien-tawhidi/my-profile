@@ -25,6 +25,8 @@ body {
   height: 100%;
 }
 
+
+
 body {
   margin: 0;
   height: 100%;
@@ -39,6 +41,7 @@ body {
   border-left: 10px solid var(--primary-color);
   border-right: 10px solid var(--primary-color);
 }
+
 
 ul {
   list-style: none;
