@@ -20,19 +20,16 @@ export const Portfolio = () => {
             <hr className='t_border my-4 ml-0 text-left' />
           </Col>
         </Row>
-        <div className='mb-5 po_items_ho'>
-          .
+        <div className='po_items_ho'>
           <div className='row'>
             {projects.map((data, i) => {
               return (
-                <div className='col-md-4' key={i}>
+                <div className='col-md-4 mb-5 ' key={i}>
                   <div className='po_item'>
                     <img src={data.img} alt='' className='img-fluid' />
                     <div className='content p-2'>
                       <p>{data.desctiption}</p>
-                      <Link to={data.link}>
-                        view project
-                      </Link>
+                      <Link to={data.link}>view project</Link>
                     </div>
                   </div>
                 </div>
