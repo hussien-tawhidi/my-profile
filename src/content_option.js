@@ -95,6 +95,12 @@ export const projects = [
   },
   {
     id: 4,
+    img: "/projects/company.png",
+    desctiption: "Reactjs, bootstrap, . . .",
+    link: "https://company-eight.vercel.app/",
+  },
+  {
+    id: 5,
     img: "/projects/sample.png",
     desctiption: "Reactjs, bootstrap, . . .",
     link: "https://sample-web-beta.vercel.app/",
@@ -160,7 +166,7 @@ export const blogPostData = [
   {
     id: 2,
     image: "/blogPosts/good&bad.png",
-    linkTo:"/suitable-and-unfavourable-websiltes",
+    linkTo: "/suitable-and-unfavourable-websiltes",
     title: "The discrepancy between a suitable and a unfavourable website",
     para0:
       "As much as words are important for a speaker, the design of a website is also vital for business!",
